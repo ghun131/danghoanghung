@@ -1,0 +1,47 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  margin-top: 5%;
+}
+
+#info {
+  margin: 80px 20px 20px 0px;
+
+}
+
+nav {
+  position: fixed;
+}
+
+#info p {
+  font-size: 17px;
+}
+
+#photo {
+
+}
+
+#My-image {
+  border-radius: 50%;
+}
+
+.portfolio {
+  position: relative;
+}
+
+.about-me {
+  margin-top: 40px;
+  font-size: 17px;
+  text-align: center;
+  position: relative;
+}
+
+.skills table tr td{
+  padding: 10px;
+}
+
+.frontend-skill img{
+  border-radius: 50%;
+}

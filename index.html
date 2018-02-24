@@ -1,12 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Personal Portfolio</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
 </head>
-<body>
-    <h1>Hello World</h1>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
+    <div>
+        <div id="top" class="header">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <ul class="nav navbar-nav">
+                    <li class="active" style="margin-left:8em;">
+                        <a href="#top">
+                            <strong>HOME</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">
+                            <strong>FONTEND</strong>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about-me">
+                            <strong>ABOUT</strong>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="container personal-info">
+            <div class="row">
+                <div id="photo" class="col-md-4 col-sm-6">
+                    <img id="My-image" src="https://i.imgur.com/YLMD5Xl.jpg">
+                </div>
+                <div id="info" class="col-md-6 col-sm-6">
+                    <h1>Dang Hoang Hung</h1>
+                    <h3>Web Developer</h3>
+                    <p>Hi! My name is Hung and I love building dynamic web apps that will solve real world problems</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="container portfolio">
+            <h2 id="portfolio" class="text-center">-----Portfolio-----</h2>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="https://codepen.io/matthewdang131/full/vdNLqa/" target=_blank>
+                    <img src="https://i.imgur.com/UJP8HqH.jpg?1" width=100%>
+                </a>
+                <p class="text-center">Random Quote Machine</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="https://codepen.io/matthewdang131/full/rJmRMQ/" target=_blank>
+                    <img src="https://i.imgur.com/MLTi6f2.jpg?1" width=100%>
+                </a>
+                <p class="text-center">Local Weather App</p>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="https://codepen.io/matthewdang131/full/jZYyNg/" target=_blank>
+                    <img src="https://i.imgur.com/xinwp8S.jpg?1" width=100%>
+                </a>
+                <p class="text-center">Wikipedia Search App</p>
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="about-me">
+            <div>
+                <h2 id="about-me" class="text-center">-----About me-----</h2>
+                <p>I am a front-end developer based in Hanoi, Vietnam. I am a
+                    <a href="https://www.freecodecamp.org/hunghoangdang" target=_blank>freeCodeCamp</a> student and
+                    <a href="http://www.coderschool.vn/" target=_blank>CoderSchool</a> React alumini.</p>
+            </div>
+            <br>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <table align="center">
+                    <tr>
+                        <td>
+                            <div class="text-center frontend-skill">
+                                <img src="https://i.imgur.com/B80iJ86.jpg">
+                                <figcaption>HTML</figcaption>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center frontend-skill">
+                                <img src="https://i.imgur.com/NCP2EMG.jpg">
+                                <figcaption>CSS</figcaption>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center frontend-skill">
+                                <img src="https://i.imgur.com/YpndMhb.jpg">
+                                <figcaption>JavaScript</figcaption>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="text-center frontend-skill">
+                                <img src="https://i.imgur.com/ukijkeb.jpg">
+                                <figcaption>React.js</figcaption>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <br>
+            <br>
+
+            <div>
+                <h3>Contact me</h3>
+                <a href="https://www.linkedin.com/in/hung-dang-72ba0078/">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <span style="display:inline-block; width:20px"></span>
+                <a href="https://github.com/hungHoangDang">
+                    <i class="fab fa-github-square fa-2x"></i>
+                </a>
+                <span style="display:inline-block; width:20px"></span>
+                <a href="https://codepen.io/matthewdang131/">
+                    <i class="fab fa-codepen fa-2x"></i>
+                </a>
+                <span style="display:inline-block; width:20px"></span>
+            </div>
+            <br>
+            <div style="display:inline-block; text-align:left;">
+                <p>
+                    <i style="color:#0077B5" class="fas fa-envelope-open fa-lg"></i> hungdh131@gmail.com</p>
+                <p>
+                    <i style="color:#0077B5" class="fas fa-mobile fa-lg"></i> 0167-5072-848</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script type "text/javascript" src="main.js"></script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
+
 </html>
