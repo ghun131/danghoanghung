@@ -16,23 +16,38 @@
     <div>
         <div id="top" class="header">
             <nav class="navbar navbar-default navbar-fixed-top">
-                <ul class="nav navbar-nav" style="margin-left:10em; font-size: 18px;">
-                    <li class="active">
-                        <a href="#top">
-                            <strong>HOME</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#portfolio">
-                            <strong>FONTEND</strong>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#about-me">
-                            <strong>ABOUT</strong>
-                        </a>
-                    </li>
-                </ul>
+                <div class="container">
+                    <!-- for mobile display, navbar toggle into a small symbol -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarNav">
+                            <span class="sr-only">Menu</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#top">
+                                    <strong>HOME</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#portfolio">
+                                    <strong>FONTEND</strong>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#about-me">
+                                    <strong>ABOUT</strong>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </div>
 
